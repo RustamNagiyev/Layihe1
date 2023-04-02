@@ -7,38 +7,34 @@
   margin-top: 21px;   
 width: 112px;
 height: 66px;
-left: 121px;
-top: 21px;
+margin-left: 121px;
+margin-top: 21px;
 }
 .img2{
     margin-left: 121px;
     margin-top: 93px; 
 width: 22px;
 height: 21px;
-left: 121px;
-top: 184px;
-}
-.img3{
-    margin-top: 93px;    
-width: 22px;
-height: 22px;
-left: 306px;
-top: 183px;
 
 }
+
+.img3{
+    margin-top: 93px;    
+    width: 22px;
+    height: 22px;
+}
+
 .img4{
     margin-top: 93px;  
 width: 20px;
 height: 22px;
-left: 467px;
-top: 183px;
+
 }
 .text1{
     margin-top: 93px; 
-width: 130px;
-height: 32px;
-left: 159px;
-top: 187px;
+    width: 130px;
+    height: 32px;
+
 
 font-family: 'Roboto';
 font-style: normal;
@@ -50,8 +46,7 @@ line-height: 115%;
     margin-top: 93px;  
 width: 130px;
 height: 32px;
-left: 338px;
-top: 187px;
+
 
 font-family: 'Roboto';
 font-style: normal;
@@ -63,8 +58,7 @@ line-height: 115%;
     margin-top: 93px; 
     width: 130px;
     height: 32px;
-    left: 500px;
-    top: 187px;
+  
     
     font-family: 'Roboto';
     font-style: normal;
@@ -78,13 +72,14 @@ line-height: 115%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-  width: 90%;
 }
 
-img5{
-    width: 90%;
+.img5{
+    width: 20%;
     height: 356px;
-    padding-left: 173px;
+}
+.img55{
+margin-right: 200px;
 }
 .text4{
     margin-left: 121px;
@@ -98,45 +93,42 @@ img5{
     font-size: 20px;
     line-height: 150%;
 }
+
 .h1{
    margin-top: 61px;
     margin-left: 121px;
-    width: 628px;
+    width: 500px;
     height: 190px;
-    left: 122px;
-    top: 248px;
+ 
     
     font-family: 'Roboto Slab';
     font-style: normal;
     font-weight: 700;
     font-size: 80px;
-    line-height: 101.38%;
+ 
 }
 .fon{
-    margin-left: 452px;
-    width: 483.63px;
-height: 200px;
-background: #1E4681;
-border-radius: 5px;
-margin-top: 263px;
+    margin: auto;
+    width: 483px;
+    height: 200px;
+ 
+ background: #1E4681;
+ border-radius: 5px;
+ margin-top: 190px;
 }
 .text5{
-    width: 430.59px;
+    width: 430px;
 height: 113px;
-left: 485.61px;
-top: 733.38px;
 color: white;
 font-family: 'Roboto Slab';
 font-style: normal;
 font-weight: 400;
 font-size: 25px;
-line-height: 130%;
 padding-left: 30px;
 padding-top: 35px;
 }
 .text6{
-    width: 430.5px;
-height: 45.64px;
+padding-right: 30px;
 color: white;
 text-align: right;
 
@@ -144,7 +136,7 @@ font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
 font-size: 20px;
-line-height: 130%;
+
 }
 
 
@@ -154,6 +146,8 @@ line-height: 130%;
 
 .container3{
     display: flex;
+    justify-content: space-between;
+  width: 90%;
 }
 h2{
     font-size: 50px;
@@ -162,23 +156,33 @@ h2{
     margin-left: 121px;
     
 }
-.bir{
-    margin-left: 50px; 
+
+.metn1{
+  
+        font-size: 20px;
+        margin-right: 200px;
+       margin-bottom: 50px;
+        width: 70%;
+        margin-left: 121px;
+    
 }
-.metn{
-    font-size: 20px;
-    margin-right: 200px;
-   margin-bottom: 50px;
-    width: 500px;
-    margin-left: 121px;
+.metn2{
+    
+        font-size: 20px;
+        margin-right: 200px;
+       margin-bottom: 50px;
+        width: 70%;
+        margin-left: 121px;
+    
 }
+
 
 
 
 .container4{
     display: flex;
     flex-direction: row;
-    margin: 0 auto;
+    justify-content: space-around;
   
 
 }
@@ -186,16 +190,18 @@ h2{
    margin-top: 80px;
     font-size: 20px;
     text-align:left;
-    margin-left: 100px;
+    
+ 
 }
 .img6{
     margin-top: 114px;
-    margin-left: 200px;
-    margin-right: 100px;
-}
+     
+ 
+ }
 
 .img7{
     margin-left: 121px;
+  
 }
 
 .text7{
@@ -209,6 +215,7 @@ font-size: 55px;
 .conteiner5{
     display: flex;
     margin-top: 100px;
+    justify-content: space-around;
 }
 .big{
     color: #1E4681;
@@ -217,10 +224,10 @@ font-style: normal;
 font-weight: 700;
 font-size: 25px;
 width: 150px;
-margin-left: 122px;
+
 }
 .small{
-    margin-left: 122px;
+    
     font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
@@ -230,7 +237,7 @@ width: 223px
 }
 .big2{
     color: #1E4681;
-    padding-left: 122px;
+    
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -244,7 +251,7 @@ width: 223px
     font-weight: 400;
     font-size: 18px;
     width: 271px;
-    padding-left: 120px;
+   
 }
 .big3{
     color: #1E4681;
@@ -253,7 +260,7 @@ font-style: normal;
 font-weight: 700;
 font-size: 25px;
 width: 150px;
-padding-left: 122px;
+
 }
 .small3{
     font-family: 'Roboto';
@@ -261,89 +268,82 @@ padding-left: 122px;
     font-weight: 400;
     font-size: 18px;
 width: 245px;
-padding-left: 120px;
+
 }
 .text8{
-  margin-left: 121px;
-    margin-top: 300px;
-    width: 667px;
-    font-family: 'Roboto Slab';
+margin-left: 121px;
+margin-top: 300px;
+width: 667px;
+font-family: 'Roboto Slab';
 font-style: normal;
 font-weight: 700;
 font-size: 55px;
 }
 .list{
-   margin-top: 20px;
-   margin-left: 121px;
-    width: 662px;
-    font-family: 'Roboto';
+margin-top: 20px;
+margin-left: 121px;
+width: 662px;
+font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
 font-size: 24px;
 }
 .text9{
-  margin-top: 320px;
-    margin-left: 121px;
-    width: 905px;
-    font-family: 'Roboto Slab';
-font-style: normal;
+margin-top: 320px;
+margin-left: 121px;
+font-family: 'Roboto Slab';
 font-weight: 700;
 font-size: 55px;
 }
 .img9{
-    margin-left: 84px;
-   margin-top: 100px;
-   width: 399px;
+width: 30%;
 }
 .img10{
-    margin-top: 100px;
-    width: 399px;
-    padding-left: 60px;
+    width: 30%;  
 }
 .img11{
-    margin-top: 100px;
-    width: 399px;
-    padding-left: 60px;
+    width: 30%;
 }
 .img12{
-    margin-left: 84px;
-    margin-top: 20px;
-    width: 399px;
+    width: 30%;
 }
 .img13{
-    margin-top: 20px;
-    width: 399px;
-    padding-left: 60px;
+     width: 30%;  
 }
 .img14{
-    margin-top: 20px;
-    width: 399px;
-    padding-left: 60px; 
+    width: 30%;
 }
 .img15{
-    margin-left: 84px;
-    margin-top: 20px;
-    width: 399px;
+    width: 30%;  
 }
 .img16{
-    padding-left: 60px; 
-    margin-top: 20px;
-    width: 399px; 
+    width: 30%;
 }
-
+.img17{
+    width: 30%;
+    visibility: hidden;
+}
 
 .conteiner6{
     display: flex;
+    width: 100%;
+    margin-top: 100px;
+    justify-content: space-around;
+  
 }
 .conteiner7{
     display: flex;
+    width: 100%;
+    justify-content: space-around;
 }
 .conteiner8{
     display: flex;
+    width: 100%;
+    justify-content: space-around; 
 }
 section{
     background: #EFEFEF;
-    width: 100%;
+    
     height: 780px;
     margin-top: 125px;
 }
@@ -364,6 +364,7 @@ padding-top: 40px;
 margin-top: 35px;
 border-radius: 30px;
 box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+
 }
 .text11{
     font-family: 'Roboto';
@@ -375,9 +376,11 @@ margin: 0 auto;
 }
 .conteiner9{
     display: flex;
-    margin-left: 80px;
-    margin-top: 60px;
+    margin-left: 20px;
+    margin-top: 20px;
 }
+
+
 .girl{
     width: 190px;
 height: 169px;
@@ -390,25 +393,22 @@ height: 169px;
 }
 .flex5{
     margin-left: 40px;
-    padding-top: 50px
+    
 }
 .fb{
-    margin-top: 30px;
-    width: 32px;
+    margin-top: 15px;
+    width: 15px;
 height: 31px;
 }
 article{
-    width: 100%;
-height: 780px;
-background: #9DC9C8;
+    height: 780px;
+    background: #9DC9C8;
 }
 .text13{
     margin-left: 121px;
     padding-top: 180px;
     font-family: 'Roboto Slab';
-font-style: normal;
-font-weight: 700;
-font-size: 55px;
+    font-size: 55px;
 }
 .text14{
     margin-left: 121px;
@@ -447,7 +447,7 @@ width: 294px
     padding-top: 80px;
 }
 footer{
-    width: 100%;
+    
 height: 390px;
 background-color: black;
 }
@@ -463,12 +463,245 @@ span{
    
 }
 .text18{
-    color: white;
-    padding-top: 180px;
+color: white;
+padding-top: 100px;
+margin-left: 100px;
 }
 .yansekil{
     padding-top: 25px;
 }
-@media screen and (max-width: 1279px) and (min-width:992){
 
+@media screen and (max-width: 1279px) and (min-width: 992px){
+    .background1{
+    width: 791px;
+ }
+ 
+
+}
+
+@media screen and (max-width: 991px) and (min-width: 320px){ 
+    .h1{
+    margin-left: 40px;
+    font-size: 50px;
+    width: 100%;
+   }
+ .conteiner{
+    justify-content: space-around;
+ }
+    .img7{
+      
+        display: none;
+    }
+    .table{
+        margin: auto;
+        width: 100%;
+        margin-left: 20px;
+    }
+
+    .conteiner2{
+        flex-direction: column;
+    }
+    .img55{
+        width: 141.68px;
+height: 175.1px;
+    }
+    .img5{
+       margin: auto;
+      
+    }
+    .fon{
+        margin: 0 auto;
+        margin-left: 60px;
+        width: 80%;
+        
+    }
+    .text4{
+        margin-left: 40px;
+        width: 100%;
+    }
+    .text5{
+        width: 100%;
+    }
+
+    .container3{
+        flex-direction: column;
+        width: 100%;
+    }
+    .conteiner4{
+        width: 100%;
+    }
+  .text8{
+    width: 80%;
+    margin-left: 30px;
+  }
+  .text9{
+    margin-left: 20px;
+    width: 100%;
+  }
+.img6{
+    margin: auto
+}
+    .img66{
+        width: 170.55px;
+height: 160.29px;
+       
+    }
+    .conteiner5{
+        flex-direction: column;
+        width: 100%;
+    }
+    .flex2{
+        width: 70%;
+    }
+    .big{
+        width: 100%;
+        margin-top: 30px;
+        margin-left: 40px;
+    }
+    .small{
+        width: 100%;
+        margin-left: 40px;
+    }
+    .big2{
+        width: 100%;
+        margin-top: 30px;
+        margin-left: 40px;
+    }
+    .small2{
+        width: 100%;
+        margin-left: 40px;
+    }
+    .big3{
+        margin-top: 30px;
+        margin-left: 40px;
+    }
+    .small3{
+        width: 100%;
+        margin-left: 40px;
+    }
+    .conteiner6{
+        flex-direction: column;
+        width: 100%;
+    }
+    .conteiner7{
+        flex-direction: column;
+        width: 100%;
+    }
+    .conteiner8{
+        flex-direction: column;
+        width: 100%;
+       }
+    .conteiner9{
+        justify-content: space-around;
+       }
+    .conteiner10{
+        justify-content: space-around;
+    }
+       .conteiner11{
+        flex-direction: column;
+    }
+    .text18{
+        padding-top: 60px;
+        margin-left: 50px;
+    }
+        .img9{
+    width: 50%;
+    margin: auto;
+        }
+        .img10{
+            width: 50%;
+    margin: auto;
+        }
+        .img11{
+            width: 50%;
+    margin: auto;
+        }
+        .img12{
+            width: 50%;
+    margin: auto;
+        }
+        .img13{
+            width: 50%;
+            margin: auto; 
+        }
+        .img14{
+            width: 50%;
+            margin: auto;
+        }
+        .img15{
+            width: 50%;
+    margin: auto;
+        }
+        .img16{
+            width: 50%;
+            margin: auto;
+        }
+        .background1{
+            width: 80%;
+        }
+     .text16{
+margin-left: 20px;
+width: 50%;
+     }
+     .text17{
+        margin-left: 20px;
+        width: 50%;
+             }
+    .list{
+        margin-left: 10px;
+        width: 100%;
+    }
+    .background1{
+       margin-left: 20px;
+    }
+    .girl{
+        width: 60%;
+    }
+    .text12{
+        font-family: 'Roboto Slab';
+    font-size: 14px;
+    }
+    .text10{
+        font-size: 30px;
+        margin-left: 20px;
+        
+    }
+    .text11{
+        font-size: 16px;
+    }
+    .text13{
+        margin-left: 20px;
+        font-size: 40px;
+    }
+    .text14{
+        margin-left: 20px;
+    }
+    .text15{
+        margin-left: 20px;
+        font-size: 40px;
+    }
+    footer{
+        width: 100%;
+    }
+    article{
+        width: 100%;
+    }
+    section{
+        width: 100%;
+    }
+    .text7{
+        margin-left: 20px;
+    }
+    .img2{
+        margin-left: 20px;
+    }
+    .metn1{
+        margin-left: 20px;
+    }
+    .metn2{
+        margin-left: 20px;
+    }
+    .img17{
+        display: none;
+    }
 }
